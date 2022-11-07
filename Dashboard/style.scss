@@ -1,0 +1,115 @@
+$color: #0dba4b;
+$fontsize: 16px;
+
+#brand_logo img{
+    width: 90px;
+    height: 39px;
+}
+
+header {
+  position: relative;
+  box-shadow: 0 8px 16px rgb(0 0 0 / 15%);
+  height: 60px;
+  z-index: 9999;
+  padding: 0.4rem 0;
+  background-color: #fff;
+}
+
+a {
+    color: #95a4c2;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+header .nav-item a {
+    color: #707070;
+    padding-top: 0.9rem;
+    padding-bottom: 1rem;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    font-size: $fontsize;
+}
+
+@media (max-width: 768px) {
+    .nav {
+      display: none;
+    }
+  }
+
+ #login_header{
+    color: $color;
+  }
+
+.carousel-indicators li {
+
+  cursor: pointer;
+  background-color: #cdfbcc;
+  border: 1px solid $color;
+  width: 9px;
+  height: 9px;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+}
+
+.carousel-indicators li.active {
+  background-color: $color !important;
+}
+
+@media (min-width: 768px) {
+  .visible-small-screen {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hidden-small-screen {
+    display: none;
+  }
+}
+
+
+@media (min-width: 768px){
+.col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}}
+
+
+.title_accre{
+    margin-top: 54px;
+    padding-bottom: 24px;
+    display: flex;
+    font-size: 28px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #101010;
+}
+
+.accre_list {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+li {
+    list-style: none;
+    display: list-item;
+}
+
+.accre_list li {
+    flex-grow: 1;
+}
+
+.accre_list img {
+    min-width: 80%;
+    max-width: 90%;
+    margin: auto;
+    display: table;
+}
